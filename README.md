@@ -67,10 +67,10 @@ You can change a todo property using the todo ID (Only title and completed statu
 Example of object with the new properties
 
 ```json
-  {
-    title: "New title"
-    completed: false
-  }
+{
+  "title": "New title",
+  "completed": false
+}
 ```
 
 To delete a Todo you only need to add the Todo ID on the Endpoint
