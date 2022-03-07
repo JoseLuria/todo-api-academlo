@@ -64,6 +64,7 @@ You can get a individual todo adding the todo ID on the Endpoind
 ```
 
 You can change a todo property using the todo ID (Only title and completed status can be changed)
+
 Example of object with the new properties
 
 ```json
