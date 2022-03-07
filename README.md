@@ -54,13 +54,13 @@ npm start
 Get All the Todos
 
 ```js
-"http://localhost:4000/api/v1/todos/";
+"http://localhost:4000/api/v1/todos/"
 ```
 
 You can get a individual todo adding the todo ID on the Endpoind
 
 ```js
-`http://localhost:4000/api/v1/todos/${individualTodoId}`;
+`http://localhost:4000/api/v1/todos/${individualTodoId}`
 ```
 
 You can change a todo property using the todo ID (Only title and completed status can be changed)
@@ -77,7 +77,7 @@ Example of object with the new properties
 To delete a Todo you only need to add the Todo ID on the Endpoint
 
 ```js
-`http://localhost:4000/api/v1/todos/${eliminateTodoId}`;
+`http://localhost:4000/api/v1/todos/${eliminateTodoId}`
 ```
 
 ## Built with
