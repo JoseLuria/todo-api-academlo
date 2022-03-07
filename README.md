@@ -18,19 +18,19 @@ Move to the api folder and type the command
 npm install
 ```
 
-Then start the API to be able to start making requests with the next command:
-
-```shell
-npm start
-```
-
-You need to configure the conection with postgres using the database.js file on the utils folder, you neet to create a config.env file using the next variables:
+You need to configure the conection with postgres using the database.js file on the utils folder, for that you neet to create a config.env file using the next variables:
 
 ```shell
 DB_HOST=your host of postgres
 DB_USER=user name of postgres
 DB_PASSWORD=your postgres password
 DB_NAME=the name of your database
+```
+
+Then start the API to be able to start making requests with the next command:
+
+```shell
+npm start
 ```
 
 The service starts in the port 4000 (You can change this value in app.js)
@@ -65,12 +65,21 @@ You can get a individual todo adding the todo ID on the Endpoind
 
 You can change a todo property using the todo ID (Only title and completed status can be changed)
 
-Example of object with the new properties
+Example object with the new properties
 
 ```json
 {
   "title": "New title",
   "completed": false
+}
+```
+
+You can only change one property if you need it
+Example object with only one propertie
+
+```json
+{
+  "title": "Updated title"
 }
 ```
 
