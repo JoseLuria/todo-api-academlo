@@ -18,7 +18,7 @@ Move to the api folder and type the command
 npm install
 ```
 
-You need to configure the conection with postgres using the database.js file on the utils folder, for that you neet to create a config.env file using the next variables:
+You need to configure the conection with postgres using the database.js file on the utils folder, for that you need to create a config.env file using the next variables:
 
 ```shell
 DB_HOST=your host of postgres
